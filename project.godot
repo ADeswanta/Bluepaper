@@ -12,4 +12,17 @@ config_version=5
 
 config/name="Bluepaper"
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+boot_splash/image="uid://hn26htrh4hrt"
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=800
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
